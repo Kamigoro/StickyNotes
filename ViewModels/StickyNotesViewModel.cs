@@ -10,6 +10,10 @@ namespace Todo.ViewModels
 
         public StickyNotesViewModel()
         {
+            StickyNoteGroup group = new StickyNoteGroup() { Name = "G1", Color = "Red" };
+            DataAccessor.SaveStickyNoteGroup(group);
+            DataAccessor.SaveStickyNote(new StickyNote() { Name = "Test", Text = "CECI EST UN TEST FDP", Group = group });
+
             StickyNotes = DataAccessor.GetStickyNotes();
         }
 
