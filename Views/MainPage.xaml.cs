@@ -14,8 +14,9 @@ namespace Todo.Views
 
         public MainPage()
         {
-            InitializeComponent();
             SettingsPage = new SettingsPage(this);
+            DataContext = ViewModel;
+            InitializeComponent();
         }
 
         private void btnAddStickyNote_Click(object sender, RoutedEventArgs e)
@@ -33,6 +34,9 @@ namespace Todo.Views
             System.Environment.Exit(0);
         }
 
+        private void btnSearchStickyNote_Click(object sender, RoutedEventArgs e)
+        {
 
+        }
     }
 }
