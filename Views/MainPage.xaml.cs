@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using StickyGO.Views;
+using System.Windows;
 using System.Windows.Controls;
 using Todo.ViewModels;
 
@@ -21,7 +22,8 @@ namespace Todo.Views
 
         private void btnAddStickyNote_Click(object sender, RoutedEventArgs e)
         {
-
+            StickyNoteView view = new StickyNoteView();
+            view.Show();
         }
 
         private void btnSettings_Click(object sender, RoutedEventArgs e)
