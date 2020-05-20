@@ -12,7 +12,7 @@ namespace Todo
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Navigate(MainPage);
+            mainFrame.Navigate(MainPage);
         }
     }
 }
