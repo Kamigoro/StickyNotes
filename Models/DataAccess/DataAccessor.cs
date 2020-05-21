@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Todo.Models.DataAccess
+namespace StickyGO.Models.DataAccess
 {
     /// <summary>
     /// Static class containing CRUD operations to interact with the database.

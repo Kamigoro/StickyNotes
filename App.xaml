@@ -1,7 +1,7 @@
-﻿<Application x:Class="Todo.App"
+﻿<Application x:Class="StickyGO.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Todo"
+             xmlns:local="clr-namespace:StickyGO"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>

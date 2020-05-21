@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace Todo.Views
+namespace StickyGO.Views
 {
     /// <summary>
     /// Logique d'interaction pour SettingsPage.xaml

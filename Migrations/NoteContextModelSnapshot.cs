@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Todo.Models.DataAccess;
+using StickyGO.Models.DataAccess;
 
 namespace StickyGO.Migrations
 {

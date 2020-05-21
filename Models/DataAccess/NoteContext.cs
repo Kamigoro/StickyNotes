@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Todo.Models.DataAccess
+namespace StickyGO.Models.DataAccess
 {
     public class NoteContext : DbContext
     {

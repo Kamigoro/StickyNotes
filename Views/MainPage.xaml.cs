@@ -1,9 +1,8 @@
-﻿using StickyGO.Views;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using Todo.ViewModels;
+using StickyGO.ViewModels;
 
-namespace Todo.Views
+namespace StickyGO.Views
 {
     /// <summary>
     /// Logique d'interaction pour MainPage.xaml

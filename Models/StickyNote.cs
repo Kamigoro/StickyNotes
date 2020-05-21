@@ -1,4 +1,4 @@
-﻿namespace Todo.Models
+﻿namespace StickyGO.Models
 {
     public class StickyNote
     {

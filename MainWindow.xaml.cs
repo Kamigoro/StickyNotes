@@ -1,8 +1,8 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-using Todo.Views;
+using StickyGO.Views;
 
-namespace Todo
+namespace StickyGO
 {
     public partial class MainWindow : Window
     {

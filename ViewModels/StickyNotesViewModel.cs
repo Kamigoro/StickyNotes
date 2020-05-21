@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Todo.Models;
-using Todo.Models.DataAccess;
+using StickyGO.Models;
+using StickyGO.Models.DataAccess;
 
-namespace Todo.ViewModels
+namespace StickyGO.ViewModels
 {
     public class StickyNotesViewModel
     {
