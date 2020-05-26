@@ -71,7 +71,7 @@
 
             <TextBox x:Name="tbxSearchStickyNote"
                      Width="280"
-                     FontSize="16"
+                     FontSize="14"
                      VerticalAlignment="Top"
                      Style="{StaticResource MaterialDesignFloatingHintTextBox}"
                      materialDesign:HintAssist.Hint="Search sticky note..."/>
@@ -80,7 +80,7 @@
                     Width="50" Height="40"
                     HorizontalAlignment="Left"
                     Style="{StaticResource MaterialDesignFlatButton}"
-                    Click="btnSearchStickyNote_Click">
+                    Click="btnSearchStickyNote_Click" Cursor="Hand">
                 <materialDesign:PackIcon Kind="Search"/>
             </Button>
 

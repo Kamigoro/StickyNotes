@@ -1,5 +1,7 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace StickyGO.Views
 {
@@ -10,6 +12,10 @@ namespace StickyGO.Views
     {
 
         private Page MainPage;
+
+        private Point offset;
+        private IInputElement relativeTo;
+        private bool mouseDown;
 
         public SettingsPage(Page mainPage)
         {
@@ -27,6 +33,20 @@ namespace StickyGO.Views
             System.Environment.Exit(0);
         }
 
+        /*private void mouseDown_Event(object sender, MouseEventArgs e)
+        {
+            offset.X = e.GetPosition(relativeTo).X;
+            offset.Y = e.GetPosition(relativeTo).Y;
+            mouseDown = true;
+        }
 
+        private void mouseMove_Event(object sender, MouseEventArgs e)
+        {
+            if(mouseDown == true)
+            {
+                Point currentScreenPosition = PointToScreen(offset);
+                this.
+            }
+        }*/
     }
 }

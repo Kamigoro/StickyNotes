@@ -7,7 +7,7 @@
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       mc:Ignorable="d" 
       MinHeight="400" MinWidth="330"
-      Height="600" Width="330">
+      Height="600" Width="330" Cursor="Hand">
 
     <Grid>
         

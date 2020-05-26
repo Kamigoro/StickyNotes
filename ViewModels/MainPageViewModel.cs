@@ -4,11 +4,11 @@ using StickyGO.Models.DataAccess;
 
 namespace StickyGO.ViewModels
 {
-    public class StickyNotesViewModel
+    public class MainPageViewModel
     {
         public List<StickyNote> StickyNotes { get; set; }
 
-        public StickyNotesViewModel()
+        public MainPageViewModel()
         {
 
             DataAccessor.SaveStickyNote(new StickyNote() { Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis tempor dictum. In ultrices pretium metus nec dictum. In sed sagittis est. Quisque dictum suscipit est quis mattis.", Color = "#d32f2f" });

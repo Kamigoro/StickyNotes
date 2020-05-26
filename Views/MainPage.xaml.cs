@@ -1,5 +1,8 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
+using StickyGO.Models;
 using StickyGO.ViewModels;
 
 namespace StickyGO.Views
@@ -10,7 +13,7 @@ namespace StickyGO.Views
     public partial class MainPage : Page
     {
         private Page SettingsPage;
-        private StickyNotesViewModel ViewModel = new StickyNotesViewModel();
+        private MainPageViewModel ViewModel = new MainPageViewModel();
 
         public MainPage()
         {
@@ -21,7 +24,7 @@ namespace StickyGO.Views
 
         private void btnAddStickyNote_Click(object sender, RoutedEventArgs e)
         {
-            StickyNoteView view = new StickyNoteView();
+            StickyNoteView view = new StickyNoteView( new StickyNote() { Text = "Prout" } );
             view.Show();
         }
 
