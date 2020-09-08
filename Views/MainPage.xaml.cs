@@ -13,19 +13,18 @@ namespace StickyGO.Views
     public partial class MainPage : Page
     {
         private Page SettingsPage;
-        private MainPageViewModel ViewModel = new MainPageViewModel();
+        private MainPageViewModel MainPageViewModel = new MainPageViewModel();
 
         public MainPage()
         {
             SettingsPage = new SettingsPage(this);
-            DataContext = ViewModel;
+            DataContext = MainPageViewModel;
             InitializeComponent();
         }
 
         private void btnAddStickyNote_Click(object sender, RoutedEventArgs e)
         {
-            StickyNoteView view = new StickyNoteView( new StickyNote() { Text = "Prout" } );
-            view.Show();
+            MainPageViewModel.CreateNewStickyNote();
         }
 
         private void btnSettings_Click(object sender, RoutedEventArgs e)

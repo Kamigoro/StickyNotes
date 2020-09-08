@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using StickyGO.Models;
 using StickyGO.Models.DataAccess;
+using StickyGO.Views;
 
 namespace StickyGO.ViewModels
 {
@@ -17,5 +19,10 @@ namespace StickyGO.ViewModels
             StickyNotes = DataAccessor.GetStickyNotes();
         }
 
+        public void CreateNewStickyNote()
+        {
+            StickyNoteView view = new StickyNoteView(new StickyNote());
+            view.Show();
+        }
     }
 }

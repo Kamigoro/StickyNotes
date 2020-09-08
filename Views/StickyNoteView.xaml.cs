@@ -28,14 +28,12 @@ namespace StickyGO.Views
 
         private void btnAddStickyNote_Click(object sender, RoutedEventArgs e)
         {
-            StickyNoteView view = new StickyNoteView();
-            view.Show();
+            StickyNoteViewModel.CreateNewStickyNote();
         }
 
         private void btnSaveStickyNote_Click(object sender, RoutedEventArgs e)
         {
-            //TODO A tester
-            DataAccessor.SaveStickyNote( new StickyNote() { Text = StickyNoteText.Text , Color = "#d32f2f" } );
+            StickyNoteViewModel.SaveStickyNote(StickyNoteText.Text, "#d32f2f");
         }
 
         private void btnSettings_Click(object sender, RoutedEventArgs e)

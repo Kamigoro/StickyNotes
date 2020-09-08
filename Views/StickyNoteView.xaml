@@ -66,9 +66,7 @@
 
         </Grid>
 
-        <!-- <Frame Grid.Row="1"> -->
-        <!--       x:Name="frameContent" Navigated="frameContent_Navigated"/> -->
-
+        <!--Text of the new sticky note-->
         <Grid Grid.Row="1">
             <TextBox Name="StickyNoteText" Text="{Binding StickyNote.Text}"
                      Style="{StaticResource MaterialDesignFloatingHintTextBox}"
